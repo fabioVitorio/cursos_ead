@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------HEADER-----------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+header{
+    border: 0px solid #000;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+#logoHeader{
+    border: 0px solid #000;
+    width: 160px;
+    height: 50px;
+    background-size: 144px 45px;
+    background-image: url(img/logoIanes.PNG);
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0 auto;
+}
+
+
+header > h3{
+    margin-left: 44%;
+    font-family: 'Merriweather', serif;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------CORPO COM CONTEÚDO------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+#videoAula{ /*MAIN*/
+	border: 0px solid #000;
+	width: 90%;
+	height: 940px;
+	margin: 0 auto;
+	margin-top: 30px;
+	align-items: center;
+}
+
+article{
+	border: 0px solid #000;
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+}
+
+#videoAula > article > iframe{
+	width: 92%; height: 460px;
+	border-radius: 2px;
+}
+
+#secSugestao{
+	border: 0px solid #000;
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+article > h4{
+	font-family: 'Kanit', sans-serif;
+	text-align: center;
+	font-size: 14pt;
+	margin-top: 0;
+}
+
+#h4{
+	font-family: 'Kanit', sans-serif;
+	font-size: 12pt;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.previaSection{
+	border: 0px solid #000;
+	width: 230px;
+	height: 130px;
+	display: inline-block;
+	margin-top: 0;
+	margin-right: 30px;
+}
+
+.previaSection > img{
+	border: 0px solid #000;
+	width: 100%;
+	height: 130px;
+	border-radius: 5px;
+	cursor: pointer;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.previaSection:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------MENU DE BARRA LATERAL---------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+main{
+	border: 1px solid #000;
+}
+#icone {
+    border: 0px solid #000;
+	cursor: pointer;
+	position: absolute;
+	z-index: 1;
+}
+
+#icone > img{
+    border: 0px solid #000;
+    width: 60px;
+    height: 60px;
+}
+
+#check{
+	display: none;
+	background-color: #f00;
+}
+
+.barra{
+	background-color: #333;
+	border-radius: 2px;
+	height: 100%;
+	width: 200px;
+	position: absolute;
+	left: -300px;
+	transition: all .5s linear;
+}
+
+.barra .link{
+	list-style: none;
+	background-color: #494950;
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	top: 75px;
+}
+nav a{
+	text-decoration: none;
+}
+
+.link{
+	color: #f4f4f9;
+	font-family: 'Kanit', sans-serif;
+	font-size: 12pt;
+	padding: 20px;
+	border-bottom: 2px solid rgba(2,2,2,0.2);
+	transition:  all .4s linear;
+	opacity: 0;
+	margin-top: 200px;
+}
+.link:hover{
+	background-color: rgb(32, 145, 145);
+	font-size: 14pt;
+}
+
+#check:checked ~ .barra nav a .link{
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .1s;
+}
+#check:checked ~ .barra{
+    transform: translateX(300px);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------FOOTER----------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+footer{
+    border: 0px solid #000;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.LogoFooter{
+    border: 0px solid #000;
+    width: 160px;
+    height: 50px;
+    background-image: url(img/logoIanes.PNG);
+    background-size: 135px 45px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 8px;
+    padding: 0;
+    margin-top: 7px;
+}
+
+footer > section{
+    border: 0px solid #000;
+    width: 310px;
+    height: 80px;
+    margin-left: 38%;
+    margin-top: 0px;
+}
+
+footer > section > h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin: 0 auto;
+    
+}
+
+footer > section > h5{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin: 0 auto;
+    
+}
+
+footer > h5{
+    text-align: end;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------RESPONSIVIDADE DESKTOP---------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+/* QUANDO CHEGAR A 1128px */
+@media(max-width: 1128px){
+	#videoAula{ /*MAIN*/
+		border: 0px solid #000;
+		width: 90%;
+		height: 940px;
+		margin: 0 auto;
+		margin-top: 30px;
+		align-items: center;
+	}
+	
+	article{
+		border: 0px solid #000;
+		width: 80%;
+		height: 800px;
+		margin: 0 auto;
+	}
+	
+	#videoAula > article > iframe{
+		width: 100%; height: 410px;
+		border-radius: 2px;
+	}
+	
+	.previaSection{
+		border: 0px solid #000;
+		width: 190px;
+		height: 100px;
+		display: inline-block;
+		margin-top: 0;
+		margin-right: 30px;
+	}
+	
+	.previaSection > img{
+		border: 0px solid #000;
+		width: 100%;
+		height: 100px;
+		border-radius: 5px;
+		cursor: pointer;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+}
+
+/* QUANDO CHEGAR A 960px */
+@media(max-width: 960px){
+	#videoAula{ /*MAIN*/
+		border: 0px solid #000;
+		width: 90%;
+		height: 940px;
+		margin: 0 auto;
+		margin-top: 30px;
+		align-items: center;
+	}
+	
+	article{
+		border: 0px solid #000;
+		width: 80%;
+		height: 800px;
+		margin: 0 auto;
+	}
+	
+	#videoAula > article > iframe{
+		width: 97%; height: 350px;
+		border-radius: 2px;
+	}
+	
+	.previaSection{
+		border: 0px solid #000;
+		width: 140px;
+		height: 75px;
+		display: inline-block;
+		margin-top: 0;
+		margin-right: 30px;
+	}
+	
+	.previaSection > img{
+		border: 0px solid #000;
+		width: 100%;
+		height: 75px;
+		border-radius: 5px;
+		cursor: pointer;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+}
+
+/* QUANDO CHEGAR A 830px */
+@media(max-width: 830px){
+	#videoAula{ /*MAIN*/
+		border: 0px solid #000;
+		width: 90%;
+		height: 940px;
+		margin: 0 auto;
+		margin-top: 30px;
+		align-items: center;
+	}
+	
+	article{
+		border: 0px solid #000;
+		width: 80%;
+		height: 800px;
+		margin: 0 auto;
+	}
+	
+	#videoAula > article > iframe{
+		width: 94%; height: 300px;
+		border-radius: 2px;
+	}
+	
+	.previaSection{
+		border: 0px solid #000;
+		width: 140px;
+		height: 75px;
+		display: inline-block;
+		margin-top: 0;
+		margin-right: 30px;
+	}
+	
+	.previaSection > img{
+		border: 0px solid #000;
+		width: 100%;
+		height: 75px;
+		border-radius: 5px;
+		cursor: pointer;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+}
+
+/* QUANDO CHEGAR A 761px */
+@media(max-width: 761px){
+	#videoAula{ /*MAIN*/
+		border: 0px solid #000;
+		width: 90%;
+		height: 940px;
+		margin: 0 auto;
+		margin-top: 30px;
+		align-items: center;
+	}
+	
+	article{
+		border: 0px solid #000;
+		width: 80%;
+		height: 800px;
+		margin: 0 auto;
+	}
+	
+	#videoAula > article > iframe{
+		width: 94%; height: 275px;
+		border-radius: 2px;
+	}
+	
+	.previaSection{
+		border: 0px solid #000;
+		width: 140px;
+		height: 75px;
+		display: inline-block;
+		margin-top: 0;
+		margin-right: 10px;
+	}
+	
+	.previaSection > img{
+		border: 0px solid #000;
+		width: 100%;
+		height: 75px;
+		border-radius: 5px;
+		cursor: pointer;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+}
+
+/* QUANDO CHEGAR A 685px */
+ @media(max-width: 685px){
+	#videoAula{ /*MAIN*/
+		border: 0px solid #000;
+		width: 90%;
+		height: 800px;
+		margin: 0 auto;
+		margin-top: 30px;
+		align-items: center;
+	}
+	
+	article{
+		border: 0px solid #000;
+		width: 80%;
+		height: 700px;
+		margin: 0 auto;
+	}
+	
+	#videoAula > article > iframe{
+		width: 94%; height: 230px;
+		border-radius: 2px;
+	}
+	
+	.previaSection{
+		border: 0px solid #000;
+		width: 130px;
+		height: 65px;
+		/* display: inline-block; */
+		margin-top: 0;
+		margin-right: 10px;
+	}
+	
+	.previaSection > img{
+		border: 0px solid #000;
+		width: 100%;
+		height: 65px;
+		border-radius: 5px;
+		cursor: pointer;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+}
+
+/* QUANDO CHEGAR A 500px */
+@media(max-width: 685px){
+	#logoHeader{
+		border: 0px solid #000;
+		width: 140px;
+		height: 30px;
+		background-size: 115px 30px;
+		background-image: url(img/logoIanes.PNG);
+		background-repeat: no-repeat;
+		float: left;
+		margin: 0 auto;
+	}
+	
+	#videoAula{ /*MAIN*/
+		border: 0px solid #000;
+		width: 90%;
+		height: 700px;
+		margin: 0 auto;
+		margin-top: 30px;
+		align-items: center;
+	}
+	
+	article{
+		border: 0px solid #000;
+		width: 80%;
+		height: 600px;
+		margin: 0 auto;
+	}
+	
+	#videoAula > article > iframe{
+		width: 94%; height: 180px;
+		border-radius: 2px;
+	}
+	
+	.previaSection{
+		border: 0px solid #000;
+		width: 135px;
+		height: 70px;
+		display: inline-block;
+		margin-top: 0;
+		margin-right: 15px;
+		margin-bottom: 30px;
+	}
+	
+	.previaSection > img{
+		border: 0px solid #000;
+		width: 100%;
+		height: 70px;
+		border-radius: 5px;
+		cursor: pointer;
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	footer{
+		border: 0px solid #000;
+		width: 100%;
+		height: 100px;
+		margin: 0 auto;
+		margin-top: 20px;
+		box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+	}
+	
+	.LogoFooter{
+		border: 0px solid #000;
+		width: 140px;
+		height: 30px;
+		background-image: url(img/logoIanes.PNG);
+		background-size: 115px 30px;
+		background-repeat: no-repeat;
+		float: left;
+		margin-left: 8px;
+		padding: 0;
+		margin-top: 7px;
+	}
+	
+	footer > section{
+		border: 0		px solid #000;
+		width: 270px;
+		height: 60px;
+		margin-left: 38%;
+		margin-top: 0px;
+	}
+	
+	footer > section > h6{
+		font-family: 'Roboto', sans-serif;
+		font-size: 8pt;
+		margin: 0 auto;
+	}
+	
+	footer > section > h5{
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		font-size: 9pt;
+		margin: 0 auto;	
+	}
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------RESPONSIVIDADE MOBILE----------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" href="css/style_contato.css">
+        <script src="js/script_contato.js"></script>
+    </head>
+
+    <body>
+        <a href="index.html"><img src="css/img/ianesFundo.png" alt="logo"></a>
+        <article id="art1">
+            <section id="iconContato">
+                <img src="css/img/tel.png" alt="iconTelefone"><h4>LIGUE PARA NÓS</h4> 
+                <p>(31) 8002-8922 / (31) 0800 8774-5595</p> <br/><br/>
+                <img src="css/img/email.png" alt="iconEmail"><h4>EMAIL</h4> 
+                <p>iatcontato@iatech.com.br</p><br/><br/>
+                <img src="css/img/loc.png" alt="iconLocalização"><h4>LOCALIZAÇÃO</h4>
+                <p>Av. Afonso Pena, 1500, Centro - BH/MG</p>
+            </section>
+        </article>
+            <article id="art2">
+                <form action="index.html" onsubmit="alerta()">
+                    <table>
+                        <tr>
+                            <td align="center"><label>CONTATE-NOS</label></td>
+                        </tr>
+                        <tr align="center">
+                            <td><input type="text" name="nome" id="input" placeholder="Informe seu nome" required></td>
+                        </tr>
+                        <tr align="center">
+                            <td><input type="tel" name="telefone" id="telefone" placeholder="Informe seu telefone" required></td>
+                        </tr>
+                        <tr align="center">
+                            <td><input type="email" name="mail" id="mail" placeholder="informe seu email" required></td>
+                        </tr align="center">
+                        <tr align="center">
+                            <td><textarea name="assunto" id="assunto" placeholder="Digite o assunto (máx 300 caracteres)" required maxlength="300"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><button>ENVIAR</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </article>      
+                
+    </body>
+</html>

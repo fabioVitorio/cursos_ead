@@ -1,0 +1,1120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------HEADER--------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+header{
+    border: 0px solid #000;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.LogoHeaderFooter{
+    border: 0px solid #000;
+    width: 160px;
+    height: 50px;
+    background-image: url(img/logoIanes.PNG);
+    background-size: 144px 45px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 8px;
+    padding: 0;
+    margin-top: 7px;
+}  
+
+label > a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+label > a:hover{
+    color: aqua;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: aqua;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 4px;
+    width: 80px;
+    transition: background-color .6s ease;
+    float: right;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: #fff; 
+}
+
+button > a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------MAIN COM O CONTEÚDO----------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+main{ /*Main com todo conteúdo*/
+    border: 0px solid #000;
+    width: 90%;
+    height: 1300px;
+    margin: 0 auto;
+}
+
+article{/*Article com dois section de no início da página*/
+    border: 0px solid #000;
+    border-radius: 5px;
+    background-color: rgb(162, 244, 250);
+    text-align: center;
+    width: 100%;
+    height: 390px;
+    margin: 0 auto; 
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    -moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+article:hover{
+    -moz-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+	transform: scale(1.01); 
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+#secArt{
+    border: 0px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    width: 370px;
+    height: 200px;
+    margin: 30px 0 0 60px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    -moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#secArt:hover{
+    -moz-transform: scale(1.04);
+	-webkit-transform: scale(1.04);
+	transform: scale(1.04); 
+}
+
+#secArt > h2{
+    font-family: 'Merriweather', serif;
+}
+
+#secArt > p{
+    color:rgb(77, 77, 77);
+    font-size: 11pt;
+}
+
+#secArt2{
+    border: 0px solid #000;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: left;
+    background-color: #fff;
+    width: 370px;
+    height: 160px;
+    margin: 30px 0 0 150px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    -moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#secArt2:hover{
+    -moz-transform: scale(1.04);
+	-webkit-transform: scale(1.04);
+	transform: scale(1.04);
+   
+}
+
+#secArt2 > section {
+    border: 0px solid #000;
+    width: 230px;
+    height: 130px;
+    margin: 0 auto;
+    float: left;
+}
+
+#secArt2 > section > h4{
+    padding: 10px;
+    text-align: right;
+    font-family: 'Merriweather', serif;
+    font-size: 15pt;
+    color: black;
+}
+
+#secArt2 > section > p{
+    padding: 10px;
+    font-size: 11pt;
+    color:rgb(77, 77, 77);
+}
+
+#secArt2 > img{
+    border: 0px solid #000; 
+    margin: 0 auto;
+    width: 135px;
+    height: 150px;
+    float: right;
+    margin-top: 70px;
+}
+
+#sectionTop{
+    border: 0px solid #000;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18pt;
+    width: 180px;
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+
+.main2{ /*Main 2 com os sections de cursos dentro*/
+    border: 0px solid #000;
+    margin: 0 auto;
+    width: 100%;
+    height: 320px;
+    float: left;
+    margin-top: 40px;
+}
+
+section{ /*Imagens dos cursos*/
+    border: 0px solid #000;
+    width: 220px;
+    height: 220px;
+    margin-top: 1px;
+    float: left;
+    margin-left: 11%;
+}
+
+.main2 > section > img{
+    width: 220px;
+    cursor: pointer;
+    border-radius: 4px;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.main2 > section:hover img{
+    -moz-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+	transform: scale(1.05);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+   
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    margin: 0;
+    margin-top: 3px;
+}
+
+section > p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    color: gray;
+    margin: 0px;
+}
+
+section > h3{
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    margin: 1;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------FOOTER----------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+footer{
+    border: 0px solid #000;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+}
+
+footer > section{
+    border: 0px solid #000;
+    width: 310px;
+    height: 80px;
+    margin-left: 27%;
+    margin-top: 0px;
+}
+
+footer > section > h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin: 0 auto;
+    
+}
+
+footer > section > h5{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin: 0 auto;
+    
+}
+
+footer > h5{
+    text-align: end;
+    font-family: 'Roboto', sans-serif;
+}
+
+#seguroFooter{
+    border: 0px solid #000;
+    width: 100px;
+    height: 40px;
+    background-image: url(img/seguro.png);
+    background-size: 100px 40px;
+    float: right;
+    margin: 0 auto;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------RESPONSIVIDADE DESKTOP------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media(max-width: 1128px){
+    article{/*Article com dois section de no início da página*/
+        border: 0px solid #000;
+        background-color: rgb(162, 244, 250);
+        text-align: center;
+        width: 100%;
+        height: 390px;
+        margin: 0 auto; 
+    }
+
+    #secArt{
+        border: 0px solid #000;
+        padding: 10px;
+        text-align: left;
+        background-color: #fff;
+        width: 370px;
+        height: 200px;
+        margin: 5px 0 0 20px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #secArt2{
+        border: 0px solid #000;
+        padding: 0px;
+        text-align: left;
+        background-color: #fff;
+        width: 370px;
+        height: 160px;
+        margin: 30px 0 0 50px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .main2{ /*Main 2 com os sections de cursos dentro*/
+        border: 0px solid #000;
+        margin: 0 auto;
+        width: 100%;
+        height: 320px;
+        float: left;
+        margin-top: 25px;
+    }
+    
+    section{ /*Imagens dos cursos*/
+        border: 0px solid #000;
+        width: 200px;
+        height: 200px;
+        margin-top: 1px;
+        float: left;
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    
+    .main2 > section > img{
+        width: 200px;
+        cursor: pointer;
+    }       
+}
+
+/*--------------986px---------------*/
+@media(max-width: 986px){
+    main{ /*Main com todo conteúdo*/
+        border: 0px solid #000;
+        width: 90%;
+        height: 1100px;
+        margin: 0 auto;
+    }
+
+    article{/*Article com dois section de no início da página*/
+        border: 0px solid #000;
+        background-color: rgb(162, 244, 250);
+        text-align: center;
+        width: 100%;
+        height: 400px;
+        margin: 0 auto; 
+    }
+
+    #secArt{
+        border: 0px solid #000;
+        padding: 10px;
+        text-align: left;
+        background-color: #fff;
+        width: 370px;
+        height: 200px;
+        margin: 5px 0 0 10%;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #secArt2{
+        border: 0px solid #000;
+        padding: 0px;
+        text-align: left;
+        background-color: #fff;
+        width: 389px;
+        height: 160px;
+        margin: 5px 0 0 20%;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #secArt2 > img{
+        border: 0px solid #000; 
+        margin: 0 auto;
+        width: 135px;
+        height: 150px;
+        float: right;
+        margin-top: 5px;
+    }
+
+    #secArt > h2{
+        font-family: 'Merriweather', serif;
+    }
+    
+    #secArt > p{
+        font-size: 10pt;
+        color:rgb(77, 77, 77);
+    }
+       
+    #secArt2 > section {
+        border: 0px solid #000;
+        width: 230px;
+        height: 130px;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    #secArt2 > section > h4{
+        padding: 10px;
+        text-align: right;
+        font-family: 'Merriweather', serif;
+        font-size: 15pt;
+        color: black;
+    }
+    
+    #secArt2 > section > p{
+        padding: 10px;
+        font-size: 11pt;
+        color:rgb(77, 77, 77);
+    }
+    
+    #secArt2 > img{
+        border: 0px solid #000; 
+        margin: 0 auto;
+        width: 135px;
+        height: 150px;
+        float: right;
+        margin-top: 0px;
+    }
+
+    .main2{ /*Main 2 com os sections de cursos dentro*/
+        border: 0px solid #000;
+        margin: 0 auto;
+        width: 100%;
+        height: 260px;
+        float: left;
+        margin-top: 20px;
+    }
+    
+    section{ /*Imagens dos cursos*/
+        border: 0px solid #000;
+        width: 150px;
+        height: 150px;
+        margin-top: 1px;
+        float: left;
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    
+    .main2 > section > img{
+        width: 150px;
+        cursor: pointer;
+    }  
+
+    h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 10pt;
+        margin: 0;
+    }
+    
+    section > p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 8pt;
+        color: gray;
+        margin: 0px;
+    }
+    
+    section > h3{
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        margin: 1;
+    }
+
+    #seguroFooter{
+        border: 0px solid #000;
+        width: 0px;
+        height: 0px;   
+    }
+}
+
+/*--------------748px---------------*/
+@media(max-width: 748px){
+
+    label > a{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10pt;
+        color: black;
+        text-align: center;
+        float: right;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+
+    button{
+        cursor: pointer;
+        font-family: 'Kanit', sans-serif;
+        font-size: 12pt;
+        font-weight: bold;
+        border-radius: 4px;
+        border-color: aqua;
+        background-color: aqua;
+        margin-top: 10px;
+        margin-right: 40px;
+        padding: 4px;
+        width: 75px;
+        transition: background-color .6s ease;
+        float: right;
+    }
+
+    article{/*Article com dois section de no início da página*/
+        border: 0px solid #000;
+        background-color: rgb(162, 244, 250);
+        text-align: center;
+        width: 90%;
+        height: 400px;
+        margin: 0 auto; 
+    }
+
+    #secArt{
+        border: 0px solid #000;
+        padding: 10px;
+        text-align: left;
+        background-color: #fff;
+        width: 370px;
+        height: 200px;
+        margin: 5px 0 0 20px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #secArt2{
+        border: 0px solid #000;
+        padding: 0px;
+        text-align: left;
+        background-color: #fff;
+        width: 390px;
+        height: 160px;
+        margin: 5px 0 0 20px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #secArt > h2{
+        font-family: 'Merriweather', serif;
+    }
+    
+    #secArt > p{
+        font-size: 11pt;
+        color:rgb(77, 77, 77);
+    }
+       
+    #secArt2 > section {
+        border: 0px solid #000;
+        width: 230px;
+        height: 130px;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    #secArt2 > section > h4{
+        padding: 10px;
+        text-align: right;
+        font-family: 'Merriweather', serif;
+        font-size: 15pt;
+        color: black;
+    }
+    
+    #secArt2 > section > p{
+        padding: 10px;
+        font-size: 11pt;
+        color:rgb(77, 77, 77);
+    }
+    
+    #secArt2 > img{
+        border: 0px solid #000; 
+        margin: 0 auto;
+        width: 135px;
+        height: 150px;
+        float: right;
+        margin-top: 0px;
+    }
+
+    .main2{ /*Main 2 com os sections de cursos dentro*/
+        border: 0px solid #000;
+        margin: 0 auto;
+        width: 100%;
+        height: 260px;
+        float: left;
+        margin-top: 5px;
+    }
+    
+    section{ /*Imagens dos cursos*/
+        border: 0px solid #000;
+        width: 100px;
+        height: 100px;
+        margin-top: 1px;
+        float: left;
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    
+    .main2 > section > img{
+        width: 150px;
+        cursor: pointer;
+    }  
+
+    h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 9pt;
+        margin: 0;
+    }
+    
+    section > p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 7pt;
+        color: gray;
+        margin: 0px;
+    }
+    
+    section > h3{
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        margin: 0;
+    }
+
+    footer > section{
+        border: 0px solid #000;
+        width: 210px;
+        height: 70px;
+        margin-left: 27%;
+        margin-top: 0px;
+    }
+    
+    footer > section > h6{
+        font-family: 'Roboto', sans-serif;
+        font-size: 7pt;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    footer > section > h5{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 7pt;
+        margin: 0 auto;
+        
+    }
+    
+    footer > h5{
+        text-align: end;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------RESPONSIVIDADE MOBILE-------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media(max-width: 540px){
+
+    main{ /*Main com todo conteúdo*/
+        border: 0px solid #000;
+        width: 90%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+
+    article{/*Article com dois section de no início da página*/
+        border: 0px solid #000;
+        background-color: rgb(162, 244, 250);
+        text-align: center;
+        width: 90%;
+        height: 400px;
+        margin: 0 auto; 
+    }
+
+    #secArt{
+        border: 0px solid #000;
+        padding: 10px;
+        text-align: left;
+        background-color: #fff;
+        width: 370px;
+        height: 200px;
+        margin: 5px 0 0 10px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #secArt2{
+        border: 0px solid #000;
+        padding: 0px;
+        text-align: left;
+        background-color: #fff;
+        width: 390px;
+        height: 160px;
+        margin: 5px 0 0 10px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    #secArt > h2{
+        font-family: 'Merriweather', serif;
+    }
+    
+    #secArt > p{
+        font-size: 11pt;
+        color:rgb(77, 77, 77);
+    }
+       
+    #secArt2 > section {
+        border: 0px solid #000;
+        width: 230px;
+        height: 130px;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    #secArt2 > section > h4{
+        padding: 10px;
+        text-align: right;
+        font-family: 'Merriweather', serif;
+        font-size: 15pt;
+        color: black;
+    }
+    
+    #secArt2 > section > p{
+        padding: 10px;
+        font-size: 11pt;
+        color:rgb(77, 77, 77);
+    }
+    
+    #secArt2 > img{
+        border: 0px solid #000; 
+        margin: 0 auto;
+        width: 135px;
+        height: 150px;
+        float: right;
+        margin-top: 0px;
+    }
+
+    .main2{ /*Main 2 com os sections de cursos dentro*/
+        border: 0px solid #000;
+        margin: 0 auto;
+        width: 100%;
+        height: 190px;
+        margin-top: 5px;
+    }
+    
+    section{ /*Imagens dos cursos*/
+        border: 0px solid #000;
+        width: 110px;
+        height: 110px;
+        margin-top: 1px;
+        float: left;
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    
+    .main2 > section > img{
+        width: 110px;
+        cursor: pointer;
+    }  
+
+    h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 9pt;
+        margin: 0;
+    }
+    
+    section > p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 7pt;
+        color: gray;
+        margin: 0px;
+    }
+    
+    section > h3{
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        font-size: 9pt;
+        margin: 0;
+    }
+}
+
+@media(max-width: 540px){
+    .LogoHeaderFooter{
+        border: 0px solid #000;
+        width: 120px;
+        height: 40px;
+        background-image: url(img/logoIanes.PNG);
+        background-size: 110px 35px;
+        background-repeat: no-repeat;
+        float: left;
+        margin-left: 8px;
+        padding: 0;
+        margin-top: 7px;
+    }
+
+    main{ /*Main com todo conteúdo*/
+        border: 0px solid #000;
+        width: 90%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+
+    article{/*Article com dois section de no início da página*/
+        border: 0px solid #000;
+        background-color: rgb(162, 244, 250);
+        text-align: center;
+        width: 90%;
+        height: 350px;
+        margin: 0 auto; 
+    }
+
+    #secArt{
+        border: 0px solid #000;
+        padding: 10px;
+        text-align: left;
+        background-color: #fff;
+        width: 330px;
+        height: 140px;
+        margin: 5px 0 0 10px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #secArt2{
+        border: 0px solid #000;
+        padding: 0px;
+        text-align: left;
+        background-color: #fff;
+        width: 350px;
+        height: 140px;
+        margin: 5px 0 0 10px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    #secArt > h2{
+        font-family: 'Merriweather', serif;
+        font-size: 13pt;
+    }
+    
+    #secArt > p{
+        color:rgb(77, 77, 77);
+        font-size: 10pt;
+    }
+       
+    #secArt2 > section {
+        border: 0px solid #000;
+        width: 230px;
+        height: 130px;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    #secArt2 > section > h4{
+        padding: 10px;
+        text-align: right;
+        font-family: 'Merriweather', serif;
+        font-size: 15pt;
+        color: black;
+    }
+    
+    #secArt2 > section > p{
+        padding: 10px;
+        font-size: 10pt;
+        color:rgb(77, 77, 77);
+    }
+    
+    #secArt2 > img{
+        border: 0px solid #000; 
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        float: right;
+        margin-top: 15px;
+    }
+
+    .main2{ /*Main 2 com os sections de cursos dentro*/
+        border: 0px solid #000;
+        margin: 0 auto;
+        width: 100%;
+        height: 190px;
+        margin-top: 5px;
+    }
+    
+    section{ /*Imagens dos cursos*/
+        border: 0px solid #000;
+        width: 110px;
+        height: 110px;
+        margin-top: 1px;
+        float: left;
+        margin: 0 auto;
+        margin-left: 6%;
+    }
+    
+    .main2 > section > img{
+        width: 110px;
+        cursor: pointer;
+    }  
+
+    h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 9pt;
+        margin: 0;
+    }
+    
+    section > p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 7pt;
+        color: gray;
+        margin: 0px;
+    }
+    
+    section > h3{
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        font-size: 9pt;
+        margin: 0;
+    }
+}
+
+@media(max-width: 464px){
+    .LogoHeaderFooter{
+        border: 0px solid #000;
+        width: 120px;
+        height: 40px;
+        background-image: url(img/logoIanes.PNG);
+        background-size: 110px 35px;
+        background-repeat: no-repeat;
+        float: left;
+        margin-left: 8px;
+        padding: 0;
+        margin-top: 7px;
+    } 
+
+    label > a{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 9pt;
+        color: black;
+        text-align: center;
+        float: right;
+        margin-top: 20px;
+        margin-right: 15px;
+    }
+
+    button{
+        cursor: pointer;
+        font-family: 'Kanit', sans-serif;
+        font-size: 10pt;
+        font-weight: bold;
+        border-radius: 4px;
+        border-color: aqua;
+        background-color: aqua;
+        margin-top: 10px;
+        margin-right: 40px;
+        padding: 4px;
+        width: 65px;
+        transition: background-color .6s ease;
+        float: right;
+    }
+
+    main{ /*Main com todo conteúdo*/
+        border: 0px solid #000;
+        width: 90%;
+        height: 900px;
+        margin: 0 auto;
+    }
+
+    article{/*Article com dois section de no início da página*/
+        border: 0px solid #000;
+        background-color: rgb(162, 244, 250);
+        text-align: center;
+        width: 90%;
+        height: 350px;
+        margin: 0 auto; 
+    }
+
+    #secArt{
+        border: 0px solid #000;
+        padding: 10px;
+        text-align: left;
+        background-color: #fff;
+        width: 246px;
+        height: 110px;
+        margin: 45px 0 0 10px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    #secArt2{
+        border: 0px solid #000;
+        padding: 0px;
+        text-align: left;
+        background-color: #fff;
+        width: 265px;
+        height: 110px;
+        margin: 5px 0 0 10px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    #secArt > h2{
+        font-family: 'Merriweather', serif;
+        font-size: 11pt;
+    }
+    
+    #secArt > p{
+        color:rgb(77, 77, 77);
+        font-size: 9pt;
+    }
+       
+    #secArt2 > section {
+        border: 0px solid #000;
+        width: 190px;
+        height: 110px;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    #secArt2 > section > h4{
+        padding: 10px;
+        text-align: right;
+        font-family: 'Merriweather', serif;
+        font-size: 12pt;
+        color: black;
+    }
+    
+    #secArt2 > section > p{
+        padding: 10px;
+        font-size: 9pt;
+        color:rgb(77, 77, 77);
+    }
+    
+    #secArt2 > img{
+        border: 0px solid #000; 
+        margin: 0 auto;
+        width: 70px;
+        height: 70px;
+        float: right;
+        margin-top: 15px;
+    }
+
+    #sectionTop{
+        border: 0px solid #000;
+        font-family: 'Kanit', sans-serif;
+        font-size: 12pt;
+        width: 180px;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .main2{ /*Main 2 com os sections de cursos dentro*/
+        border: 0px solid #000;
+        margin: 0 auto;
+        width: 100%;
+        height: 175px;
+        margin-top: 5px;
+    }
+    
+    section{ /*Imagens dos cursos*/
+        border: 0px solid #000;
+        width: 90px;
+        height: 90px;
+        margin-top: 1px;
+        float: left;
+        margin: 0 auto;
+        margin-left: 4%;
+    }
+    
+    .main2 > section > img{
+        width: 90px;
+        cursor: pointer;
+    }  
+
+    h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 9pt;
+        margin: 0;
+    }
+    
+    section > p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 6pt;
+        color: gray;
+        margin: 0px;
+    }
+    
+    section > h3{
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        font-size: 8pt;
+        margin: 0;
+    }
+
+    footer{
+        border: 0px solid #000;
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        margin-top: 20px;
+        box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    }
+}

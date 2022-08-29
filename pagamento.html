@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Pagamento</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style_pagamentos.css">
+</head>
+
+<script>
+  function alerta(){
+    alert("Compra Aprovada. \n Você será direcionado para a página principal");
+  }
+</script>
+
+<body>
+
+  <!------------------------------------>
+  <!------HEADER logo links button------>
+  <!------------------------------------>
+  <header>
+    <a href="index.html"><section class="LogoHeaderFooter"></section></a>
+  </header>
+
+  <!------------------------------------>
+  <!--MAIN com todo o conteúdo do site-->
+  <!------------------------------------>
+  <main>
+
+    <section id="sectionTop">Pagamento</section>
+
+    </br>
+      <section class="main-form">
+        <form action="index.html" onsubmit="alerta()">
+          <label>Nome</label>
+          <input type="text" name="nome" id="nome" autofocus required>
+          <label>CPF</label>
+          <input type="text" required />
+          <label>Email</label>
+          <input type="text" />
+          <label>N° do Cartão</label>
+          <input type="text" required/>
+          <label>CVV</label>
+          <input type="text" required/>
+          <label>Data Vencimento</label>
+          <input type="date" required/>
+          </br></br>
+          <button type="submit" id="send" name="send">ENVIAR</button>
+      </form>
+    </br> </br>
+    <div>
+      <img src="css/img/bandeiras.png" id="bandeiras">
+    </div>
+    </section>
+
+  </main>
+  <!-------------------------->
+  <!-----------FOOTER--------->
+  <!-------------------------->
+  <footer><br>
+    <section class="LogoHeaderFooter"></section>
+    <section id="seguroFooter"></section>
+    <section>
+      <h5>SUPORTE<br>iatcontato@iatech.com.br</h5>
+      <br>
+      <h6>&copy; IANES TECH Todos os direitos reservados - 2022</h6>
+    </section>
+    
+  </footer>
+</body>
+
+</html>

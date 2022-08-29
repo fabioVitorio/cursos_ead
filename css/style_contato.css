@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+    background-color: rgb(228, 227, 227);
+}
+
+a > img{
+    width: 120px;
+}
+
+#art1{
+    border: 0px solid #000;
+    background-color: aquamarine;
+    border-radius: 2px;
+    width: 99%;
+    height: 390px;
+    position: absolute;
+    margin-top: 90px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    -moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#art1:hover{
+    -moz-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01); 
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#iconContato{
+    border: 0px solid #000;  
+    width: 400px;
+    height: 230px;
+    margin-top: 80px;
+    margin-left: 10%;
+}
+
+#iconContato > img {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    margin-right: 15px;
+    float: left;
+}
+
+#iconContato > h4{
+    font-family: 'Kanit', sans-serif;
+    font-size: 12pt;
+    margin: 0;
+}
+
+#iconContato > p{
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 32px;
+    font-size: 11pt;
+    
+}
+
+#art2{
+    border: 0px solid #000;
+    width: 500px;
+    height: 525px;
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+    position: relative;
+}
+
+table{
+    border: 0px solid #000;
+    background-color: #fff;
+    border-radius: 1px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 460px;
+    height: 550px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    -moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+table:hover{
+    -moz-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01); 
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+label{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    border: 0;
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
+    resize: none;
+    font-family: 'Kanit', sans-serif;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: aqua;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 4px;
+    width: 80px;
+    transition: background-color .6s ease;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: #fff; 
+}
+
+button > a{
+    text-decoration: none;
+    color: #000;
+}

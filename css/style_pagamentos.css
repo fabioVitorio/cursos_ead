@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------HEADER--------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+header{
+    border: 0px solid #000;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.LogoHeaderFooter{
+    border: 0px solid #000;
+    width: 160px;
+    height: 50px;
+    background-image: url(img/logoIanes.PNG);
+    background-size: 144px 45px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 8px;
+    padding: 0;
+    margin-top: 7px;
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------MAIN COM O CONTEÚDO----------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+main{ /*Main com todo conteúdo*/
+    border: 0px solid #000;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+#sectionTop{ 
+    border: 0px solid #000;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18pt;
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+
+section {
+    border: 0px solid #000;
+    text-align: center;
+}
+
+.main-form {
+    border: 0px solid #000;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+    background-color: rgb(231, 227, 227);
+    width: 600px;
+    height: 700px;
+    padding: 20px 0;
+    margin-left: calc(50% - 300px);
+    border-radius: 10px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    display: block;
+}
+  
+input { 
+    width: 52%;
+    height: 30px;
+    font-size: 11pt;
+    margin-bottom: 30px;
+}
+button{
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: aqua;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-right: 40px;
+    padding: 4px;
+    width: 80px;
+    transition: background-color .6s ease;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: #fff; 
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------FOOTER----------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+footer{
+    border: 0px solid #000;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+}
+
+footer > section{
+    border: 0px solid #000;
+    width: 310px;
+    height: 80px;
+    margin-left: 38%;
+    margin-top: 0px;
+}
+
+footer > section > h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin: 0 auto;
+    
+}
+
+footer > section > h5{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin: 0 auto;
+    
+}
+
+footer > h5{
+    text-align: end;
+    font-family: 'Roboto', sans-serif;
+}
+
+#seguroFooter{
+    border: 0px solid #000;
+    width: 100px;
+    height: 40px;
+    background-image: url(img/seguro.png);
+    background-size: 100px 40px;
+    float: right;
+    margin: 0;
+}
