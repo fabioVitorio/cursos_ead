@@ -1,5 +1,6 @@
 # ⚙️ *Site de cursos EAD* 
-✅Site simples de cursos EAD feito no início da minha aprendizagem. <br>
+>✅Site simples de cursos EAD <br>
+>✅Feito no início do aprendizado
 
 <div>
   <img height="100em" src="https://github-readme-stats.vercel.app/api/pin/?username=fabioVitorio&repo=cursos_ead"/>
