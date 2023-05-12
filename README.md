@@ -9,9 +9,9 @@
 ```
 ##
 #### Functionalities
-- 🧠 Login <br>
-- 🧠 Video lessons <br>
-- 🔖 Responsive <br>
+- 🛡️ Login <br>
+- 🎞️ Video lessons <br>
+- 📱 Responsive <br>
  #### Technologies
 - 🟡 JavaScript <br>
 - 🟠 HTML <br>
