@@ -1,23 +1,21 @@
-### <p align='center'> ![logoMental](https://github.com/fabioVitorio/app/assets/109548564/efd92611-26ee-4789-a991-5395155c7e7f) </p>
+### <p align='center'> ![logoMental](https://github.com/fabioVitorio/cursos_ead/assets/109548564/c96b8592-8588-4bee-9a37-74672b06c555) </p>
 <br>
 <p align='center'> Distance learning course website created at the beginning of my apprenticeship <br></p>
 
 ##
 ### ⚙️ Installation
 ```bash
-npm install
-expo start
+~
 ```
 ##
 #### Functionalities
-- 🧠 Mental health management <br>
-- 🔖 Indication of nearby clinics <br>
-- 📒 Digital diary <br>
+- 🧠 Login <br>
+- 🧠 Video lessons <br>
+- 🔖 Responsive <br>
  #### Technologies
 - 🟡 JavaScript <br>
-- 🔵 React Native <br>
-- 🟠 Firebase <br>
-- ⚫ Expo <br>
+- 🟠 HTML <br>
+- 🔵 CSS <br>
 
 <div>
   <img height="100em" src="https://github-readme-stats.vercel.app/api/pin/?username=fabioVitorio&repo=cursos_ead"/>
